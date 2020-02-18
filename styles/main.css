@@ -61,12 +61,13 @@ html, body {
     background: rgba(255,255,255,0.85);
     width: auto;
     color: #121212;
-    font-size: 24px;
+    font-size: 80px;
 }
 
 .main-container--item-inner > p {
     text-align: center;
-    width: 85%;
+    font-size: 32px;
+    width: 75%;
 }
 
 .main-container--item-inner > p > a,
@@ -79,15 +80,7 @@ html, body {
 
 .center-bottom {
     position: absolute;
-
     bottom: 25px;
-    /*margin: auto;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*display: flex;*/
-    /*vertical-align: middle;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 
 .center-bottom p {
@@ -98,6 +91,7 @@ html, body {
     color: #121212;
     display: flex;
     margin: auto;
+    font-size: 32px;
 }
 
 @media (min-width: 600px) and (orientation:landscape) {
@@ -109,5 +103,18 @@ html, body {
     .center-bottom {
         position: fixed;
         bottom: 25px;
+    }
+
+    .main-container--item-inner > h1 {
+        font-size: 24px;
+    }
+
+    .main-container--item-inner > p {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .center-bottom p {
+        font-size: 14px;
     }
 }
